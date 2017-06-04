@@ -1,0 +1,80 @@
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        iqb-js-lab-04-06-17.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git add .
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   iqb-js-lab-04-06-17.txt
+
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git commit -m "update my file on 04-0617"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'IT-PC@DESKTOP-7G85MV8.(none)')
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git config --global user.name "Iqbal-Ahmed"
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git config --global user.email "iqasan@gmail.com"
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git config user.name
+Iqbal-Ahmed
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git config user.email
+iqasan@gmail.com
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git commit -m "update my file on 04-06-17"
+[master (root-commit) ed031fa] update my file on 04-06-17
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 iqb-js-lab-04-06-17.txt
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': credential manager
+Password for 'https://credential manager@github.com/':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/iqasan/Shaiffon-impression.git/'
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': iqasan
+Password for 'https://iqasan@github.com/':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 236 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/iqasan/Shaiffon-impression.git
+ * [new branch]      master -> master
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+C:\Users\IT-PC\Desktop\iqbal CMAD projects\Shaiffon-impression>
