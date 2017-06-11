@@ -1,0 +1,172 @@
+   .logo  {
+                            background-color: gray;
+                               width:100% ;                         }
+                        .ab {
+                             
+                             background-color:  maroon;
+                               
+                               text-align: left;
+                               margin:100 auto; 
+                              }  
+                    .ab a {
+                                 margin-left: 260px;
+                                 color: antiquewhite;
+                                 font-size: 18px;
+                              }
+                   .ab2 {
+                            -webkit-text-fill-color: antiquewhite;
+                            text-align: center;
+                        }
+                        .pic  {
+                            border: 1px solid black;
+                            color: gray;
+                            background-color: maroon;
+                            margin: 100 auto;
+                            height:300px;
+                            
+                        }
+                        
+                    
+                        #img1 {
+                            height:500px;
+                            width:100%
+                        }
+    .slogo {
+                    
+                            font-family: Arial;
+                            color: antiquewhite;
+                            text-align: left;
+                            background-color: maroon; 
+
+                        }
+                       
+                
+    }
+     .setValue {
+            width: 500px;
+            height: 500px;
+        }
+  
+        .circles {
+            width: 10px;
+            height: 10px;
+            border: 1px solid red;
+            border-radius: 100%;
+            margin: 0 auto;
+            margin-top: -110px;
+            display: inline-block;
+            /*z-index: 9999;*/
+        }
+
+        #changeBackground {
+            background: darkred;
+        }
+
+        #removeBackground {
+            background: #fff;
+        }
+
+        .hTop {
+                  text-align: right; 
+                  color: bisque;
+                  font-family: Arial;
+                  font-size: 13px;
+                  background-color: maroon;
+        }
+
+        .p2 {
+                       text-align: right;
+                        font-size: 16px; 
+                   
+	                                    
+        }
+
+         #header1{
+            display: flex;
+            justify-content: flex-start;
+           
+            
+        }
+        #header1 ul{
+            list-style-type: none;
+            padding : 2px 310px;
+        }
+        #header1 ul li{
+                    display: inline-block;
+                    text-align: right;
+                     
+                    
+        }
+        #whishlist-page{
+            margin-top:16px;
+            /*padding: 10px;*/
+        }
+        #header1 ul li a, #whishlist-page a{
+                    padding: 10px 40px;
+                    margin: auto;
+                    background: maroon;
+                    color: antiquewhite;                    
+                    text-decoration: none;
+                    
+        }
+        .footer {
+                    background-color :  maroon;
+                    
+                
+        }
+
+        .footer,h3 {
+                    color : antiquewhite;
+        }
+
+        .copyright {
+                        text-align: center;
+        }
+       
+         
+       #icons {
+                    display: flex;
+                    padding : 10px 20px;
+                   
+       }
+
+       #hPic {
+                -webkit-text-fill-color: antiquewhite;
+                font-size: 17px;
+                
+       }
+
+       .contact {
+                    text-align: center;
+                    color : black;
+                    padding : 20px 370px;
+       }
+      
+      .myabout {
+            color : maroon;
+            padding: 20px 30px;
+            text-align: center;
+      }
+
+      .footer,a {
+                color : antiquewhite;
+                
+
+      }
+      #footer-h2 {
+          margin : -120px 270px;
+         
+          
+          
+      }
+       #footer-h3 {
+          
+          margin :-100px 530px;
+          
+          
+      }
+
+         #footer-h4 {
+          margin : 130px 530px 20px 10px;
+          
+                }
